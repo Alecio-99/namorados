@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/namorados/static/css/main.c9373245.css",
+    "main.js": "/namorados/static/js/main.ec434c70.js",
+    "static/js/787.2510dafa.chunk.js": "/namorados/static/js/787.2510dafa.chunk.js",
+    "static/media/vi4.jpg": "/namorados/static/media/vi4.11bf38764ca984a5eaf6.jpg",
+    "static/media/vi3.png": "/namorados/static/media/vi3.02f14ebdfb0084c07a46.png",
+    "static/media/vi1.png": "/namorados/static/media/vi1.7dd92c57e8cb73b61adb.png",
+    "static/media/vi2.png": "/namorados/static/media/vi2.b5c83980e5b3250372f4.png",
+    "index.html": "/namorados/index.html",
+    "main.c9373245.css.map": "/namorados/static/css/main.c9373245.css.map",
+    "main.ec434c70.js.map": "/namorados/static/js/main.ec434c70.js.map",
+    "787.2510dafa.chunk.js.map": "/namorados/static/js/787.2510dafa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9373245.css",
+    "static/js/main.ec434c70.js"
+  ]
+}
