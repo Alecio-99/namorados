@@ -1,25 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './styles.css';
+import Namorado from "./img/vi1.png";
+import Namorado1  from "./img/vi2.png";
+import Namorado2 from "./img/vi3.png";
+import Namorado3 from "./img/vi4.jpg";
+import Header from "./Header/Header";
+import Texto from "./Header/Texto";
+import Fim from "./Header/Fim";
+import YouTube from './Header/YouTube';
+import Link from './Header/Link';
 
-function App() {
+
+const App = () => { 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1 className="Feliz">Feliz Dia dos Namorados!</h1>
+
+      <div className="photo-gallery">
+       <Texto />
+        <div className="photo"> 
+          <img src={Namorado} alt="Foto1" title="Dia dos namorados"/>
+        </div>
+        <Fim />
+        <div className="photo1">
+          <img src = {Namorado1} alt="Foto2" title="Dia dos namados"/>
+        </div>
+        <Header />
+        <div className="photo2">
+          <img src= {Namorado2} alt="Foto3" title="Dia dos namorados"/>
+        </div>
+        <div className="photo3">
+          <img src= {Namorado3} alt="Foto3" title="Dia dos namorados"/>
+        </div>
+      </div>
+        <YouTube /> 
+      <div className="video-container">
+        <Link />
+      </div>
     </div>
   );
-}
+};
 
 export default App;
+

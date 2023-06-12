@@ -1,0 +1,66 @@
+/* styles.css */
+
+.Feliz {
+    text-align: center;
+    color: red;
+    background-color: pink;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  
+  .photo-gallery {
+    display: flex;
+    flex-wrap:wrap-reverse;
+    justify-content: center;
+    background-color: pink;
+    margin-bottom: 0px;
+    
+  }
+  
+  .photo-gallery > * {
+    flex-basis: 33.33%;
+    margin-bottom: 20px;
+    text-align:center;
+    
+  }
+  
+  .photo-gallery img {
+    width: 200px;
+    height: 200px;
+    margin-top: 0px;
+    border-radius: 70%;
+  }
+  
+  .video-container {
+    display: flex;
+    justify-content: center;
+    background-color: pink;
+    margin-top: 0px;
+  }
+  
+  .youtube{
+    display: flex;
+    justify-content: center;
+    background-color: pink;
+  }
+  
+  .texto {
+    font-style: italic;
+    margin: 0px;
+    text-align: left;
+  }
+  
+  .youtube {
+    font-style: italic;
+  }
+  
+  .fim {
+    font-style: italic;
+    text-align: left;
+  }
+  
+  .texto1 {
+    margin-top: auto;
+    font-style: italic;
+    text-align: left;
+  }
